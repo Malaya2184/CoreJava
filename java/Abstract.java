@@ -1,9 +1,5 @@
-/**
- * Abstract
- */
-/**
- * InnerAbstract
- */
+package java;
+
 abstract class InnerAbstract {
     int a=15;
     int b=10;

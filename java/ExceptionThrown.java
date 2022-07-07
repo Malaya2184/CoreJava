@@ -45,7 +45,7 @@ class ExceptionThrown
         } 
         
         // matching ArithmeticException 
-        catch(NullPointerException ex) 
+        catch(ArithmeticException ex) 
         { 
             // getMessage will print description of exception(here / by zero) 
             System.out.println(ex.getMessage()); 

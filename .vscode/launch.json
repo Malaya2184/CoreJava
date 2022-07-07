@@ -1,0 +1,615 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EightThreadPriority",
+            "request": "launch",
+            "mainClass": "NewJava.EightThreadPriority",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElevenSyncThread",
+            "request": "launch",
+            "mainClass": "NewJava.ElevenSyncThread",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElevenThreadJoin2",
+            "request": "launch",
+            "mainClass": "NewJava.ElevenThreadJoin2",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FiveThreadUsingThread",
+            "request": "launch",
+            "mainClass": "NewJava.FiveThreadUsingThread",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourteenNotifyall",
+            "request": "launch",
+            "mainClass": "NewJava.FourteenNotifyall",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFirstJavaProgram",
+            "request": "launch",
+            "mainClass": "NewJava.MyFirstJavaProgram",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch NineThreadYield",
+            "request": "launch",
+            "mainClass": "NewJava.NineThreadYield",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondSuperKey",
+            "request": "launch",
+            "mainClass": "NewJava.SecondSuperKey",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SevenThreadSleep",
+            "request": "launch",
+            "mainClass": "NewJava.SevenThreadSleep",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleLinkedList",
+            "request": "launch",
+            "mainClass": "NewJava.SingleLinkedList",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch TenThreadJoin",
+            "request": "launch",
+            "mainClass": "NewJava.TenThreadJoin",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThirteenInterThread",
+            "request": "launch",
+            "mainClass": "NewJava.ThirteenInterThread",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract",
+            "request": "launch",
+            "mainClass": "java.Abstract",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract1",
+            "request": "launch",
+            "mainClass": "java.Abstract1",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aer",
+            "request": "launch",
+            "mainClass": "java.Aer",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bitwise",
+            "request": "launch",
+            "mainClass": "java.Bitwise",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Construct",
+            "request": "launch",
+            "mainClass": "java.Construct",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "java.Demo",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo1",
+            "request": "launch",
+            "mainClass": "java.Demo1",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoFile",
+            "request": "launch",
+            "mainClass": "java.DemoFile",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionThrown",
+            "request": "launch",
+            "mainClass": "java.ExceptionThrown",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exmp",
+            "request": "launch",
+            "mainClass": "java.Exmp",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exp",
+            "request": "launch",
+            "mainClass": "java.Exp",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExpCustom",
+            "request": "launch",
+            "mainClass": "java.ExpCustom",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expnest",
+            "request": "launch",
+            "mainClass": "java.Expnest",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expnest1",
+            "request": "launch",
+            "mainClass": "java.Expnest1",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expo",
+            "request": "launch",
+            "mainClass": "java.Expo",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expoo",
+            "request": "launch",
+            "mainClass": "java.Expoo",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expooo",
+            "request": "launch",
+            "mainClass": "java.Expooo",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expown",
+            "request": "launch",
+            "mainClass": "java.Expown",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileBufRead",
+            "request": "launch",
+            "mainClass": "java.FileBufRead",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileBufWrite",
+            "request": "launch",
+            "mainClass": "java.FileBufWrite",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileExtraction",
+            "request": "launch",
+            "mainClass": "java.FileExtraction",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMerge",
+            "request": "launch",
+            "mainClass": "java.FileMerge",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMergeAll",
+            "request": "launch",
+            "mainClass": "java.FileMergeAll",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMergeAlt",
+            "request": "launch",
+            "mainClass": "java.FileMergeAlt",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMethod",
+            "request": "launch",
+            "mainClass": "java.FileMethod",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FilePrintWriter",
+            "request": "launch",
+            "mainClass": "java.FilePrintWriter",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileRead",
+            "request": "launch",
+            "mainClass": "java.FileRead",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileRead1",
+            "request": "launch",
+            "mainClass": "java.FileRead1",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileWrite",
+            "request": "launch",
+            "mainClass": "java.FileWrite",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Finalvar",
+            "request": "launch",
+            "mainClass": "java.Finalvar",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hirer",
+            "request": "launch",
+            "mainClass": "java.Hirer",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inh",
+            "request": "launch",
+            "mainClass": "java.Inh",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThread",
+            "request": "launch",
+            "mainClass": "java.InterThread",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThreadBef",
+            "request": "launch",
+            "mainClass": "java.InterThreadBef",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThreadMy",
+            "request": "launch",
+            "mainClass": "java.InterThreadMy",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThreadNew",
+            "request": "launch",
+            "mainClass": "java.InterThreadNew",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThreadProduceConsume",
+            "request": "launch",
+            "mainClass": "java.InterThreadProduceConsume",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jumping",
+            "request": "launch",
+            "mainClass": "java.Jumping",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jumping1",
+            "request": "launch",
+            "mainClass": "java.Jumping1",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Logical",
+            "request": "launch",
+            "mainClass": "java.Logical",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoverloadInheritance",
+            "request": "launch",
+            "mainClass": "java.MoverloadInheritance",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multin",
+            "request": "launch",
+            "mainClass": "java.Multin",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjPass",
+            "request": "launch",
+            "mainClass": "java.ObjPass",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Op_precddence",
+            "request": "launch",
+            "mainClass": "java.Op_precddence",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassbyReference",
+            "request": "launch",
+            "mainClass": "java.PassbyReference",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassbyReff",
+            "request": "launch",
+            "mainClass": "java.PassbyReff",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassbyValue",
+            "request": "launch",
+            "mainClass": "java.PassbyValue",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pconstruct",
+            "request": "launch",
+            "mainClass": "java.Pconstruct",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Relate",
+            "request": "launch",
+            "mainClass": "java.Relate",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Relation",
+            "request": "launch",
+            "mainClass": "java.Relation",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Super",
+            "request": "launch",
+            "mainClass": "java.Super",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sync",
+            "request": "launch",
+            "mainClass": "java.Sync",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SyncDemo",
+            "request": "launch",
+            "mainClass": "java.SyncDemo",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SyncThread",
+            "request": "launch",
+            "mainClass": "java.SyncThread",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Synco",
+            "request": "launch",
+            "mainClass": "java.Synco",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Thr",
+            "request": "launch",
+            "mainClass": "java.Thr",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrAliveJoin",
+            "request": "launch",
+            "mainClass": "java.ThrAliveJoin",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrAliveJoine",
+            "request": "launch",
+            "mainClass": "java.ThrAliveJoine",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrImplement",
+            "request": "launch",
+            "mainClass": "java.ThrImplement",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrJoin",
+            "request": "launch",
+            "mainClass": "java.ThrJoin",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrMainn",
+            "request": "launch",
+            "mainClass": "java.ThrMainn",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrPriority",
+            "request": "launch",
+            "mainClass": "java.ThrPriority",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrSlp",
+            "request": "launch",
+            "mainClass": "java.ThrSlp",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrStop",
+            "request": "launch",
+            "mainClass": "java.ThrStop",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrSuspend",
+            "request": "launch",
+            "mainClass": "java.ThrSuspend",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrSuspendResume",
+            "request": "launch",
+            "mainClass": "java.ThrSuspendResume",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrYield",
+            "request": "launch",
+            "mainClass": "java.ThrYield",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wrapper",
+            "request": "launch",
+            "mainClass": "java.Wrapper",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch bank",
+            "request": "launch",
+            "mainClass": "java.bank",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch Relate(1)",
+            "request": "launch",
+            "mainClass": "java.imp.Relate",
+            "projectName": "CoreJava_5381f692"
+        }
+    ]
+}
