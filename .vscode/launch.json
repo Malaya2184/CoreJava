@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingAllType",
+            "request": "launch",
+            "mainClass": "Practice.SortingAllType",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingAll",
+            "request": "launch",
+            "mainClass": "Practice.SortingAll",
+            "projectName": "CoreJava_5381f692"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
